@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #eef2f3, #dfe9f3);
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+    color: #333;
+}
+
+.timeline {
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: white;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateX(8px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+
+.icon {
+    font-size: 30px;
+}
+
+.info h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #444;
+}
+
+.info h3 {
+    margin: 5px 0;
+}
+
+.info p {
+    margin: 0;
+    color: #666;
+}
+
+/* Time colors */
+.morning { border-left: 6px solid #FFA500; }
+.afternoon { border-left: 6px solid #2196F3; }
+.evening { border-left: 6px solid #9C27B0; }
+.night { border-left: 6px solid #2c3e50; }
